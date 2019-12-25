@@ -44,7 +44,7 @@ except (Exception, KeyboardInterrupt):
 	com.close()
 	Others.LogException(sys.exc_info())
 
-#$ Serial<id=0x219d7bd0be0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0.1, xonxoff=False, rtscts=False, dsrdtr=False)
+#$ Serial<id=0x219d7bd0be0, open=True>(port='COM6', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False)
 #$ {   'baudrate': 9600,
 #$     'bytesize': 8,
 #$     'dsrdtr': False,
